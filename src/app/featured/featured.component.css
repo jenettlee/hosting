@@ -1,0 +1,93 @@
+.heading {
+    text-align: center;
+    z-index: 1;
+    position: absolute;
+    top: 40%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   color: white;
+  }
+  .cd-half-width{
+    position: relative;
+   z-index: 1;
+   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Optional: add shadow for depth */
+  
+ }
+ .content {
+  margin-bottom: 100px;
+  margin-top: -100px;
+  background-color: #fff;
+  border-top: 15px solid #ffbb05;
+  box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.2);
+}
+
+.third-slide .feature-list ul {
+  padding: 0;
+  margin: 0;
+}
+.third-slide .feature-list ul li {
+  display: block;
+}
+.third-content {
+  padding-bottom: 30px;
+}
+.third-content .left-image img {
+  width: 100%;
+  overflow: hidden;
+}
+.third-content .right-feature-text h4 {
+  font-size: 19px;
+  color: #121212;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.third-content .right-feature-text h4 em {
+  font-style: normal;
+  font-weight: 700;
+  color: #ffbb05;
+}
+
+.third-content .feature-list p {
+  font-weight: 400;
+}
+.third-content .right-feature-text {
+  text-align: left;
+  margin: 0px 15px 0px 15px;
+}
+.third-content .right-feature-text .primary-button {
+  margin-top: 30px;
+}
+.left-image {
+    padding-right: 0px!important;
+  }
+  .right-feature-text {
+    text-align: left;
+    margin: 0px 15px 0px 15px}
+    .feature-list {
+        margin-top: 20px;
+      }
+      .primary-button a {
+        display: inline-block;
+        background-color: #ffbb05;
+        color: #343434;
+        font-size: 13px;
+        padding: 12px 18px;
+        border-radius: 3px;
+        text-decoration: none;
+        border: 1px solid transparent;
+      }
+      .primary-button a:hover {
+        background-color: transparent;
+        border: 1px solid #ffbb05;
+        -webkit-transition: all 0.2s linear; /* Added standard transition */
+        -moz-transition: all 0.2s linear;
+        -o-transition: all 0.2s linear;
+        transition: all 0.2s linear;
+    }
+
+
+
+
+

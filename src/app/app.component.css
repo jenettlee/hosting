@@ -1,0 +1,161 @@
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 80%;
+  z-index: 1;
+  background-color: rgba(0, 0, 0, 0.397); /*dim the background*/
+}
+.top-part img {
+  width: 100%;
+  background-size: cover;
+  position: absolute;
+  overflow: hidden;
+  top:0;
+  left: 0;
+}
+section {
+  display: block;
+  unicode-bidi: isolate;
+}
+nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex; /* Enables flexbox layout */
+  justify-content: center; 
+  margin: 20px;
+  flex-wrap: wrap;/* Centers items horizontally */
+}
+nav ul li  {
+  margin: 0 15px;
+}
+nav ul li a {
+  color: white; /* Link color */
+  text-decoration: none; /* Remove underline */
+  font-weight: bold; /* Make links stand out */
+}
+nav ul li a:hover {
+  background-color: red;
+ }
+.cd-hero {
+  z-index: 2; 
+  height: 100vh; 
+  overflow: hidden;
+  position: relative;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.cd-slider-nav {
+  text-align: center;
+  display: inline;
+}
+.cd-hero-slider li.selected {
+  position: relative;
+  -webkit-transform: translateX(0);
+  -moz-transform: translateX(0);
+  -ms-transform: translateX(0);
+  -o-transform: translateX(0);
+  transform: translateX(0);
+}
+.cd-slider-nav .image-icon {
+  width: 80px;
+  height: 80px;
+  line-height: 80px;
+  border-radius: 50%;
+  text-align: center;
+  margin: 0px;
+  padding: 0px;
+  background-color: #ffbb05;
+}
+  li.selected a :hover{
+  background-color: rgb(247, 241, 241);}
+video {
+  display: inline-block;
+  vertical-align: baseline;
+}
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+[hidden],
+template {
+  display: none;
+}
+ul,
+ol {
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+footer{background-color: rgb(247, 184, 10);
+text-align: center;
+height: 60px;
+padding-top: 15px;}
+
+.video-container{
+  position: relative;
+  height: 80vh;
+  overflow: hidden;
+  /*z-index: -90000;*/
+}
+.background-video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -1; /* Behind the overlay */
+  transform: translate(-50%, -50%);
+}
+.content {
+  position: relative;
+  z-index: 2; /* On top of the overlay */
+  color: white; /* Text color for visibility */
+  text-align: center;
+  padding: 20px;
+}
+.page-link {
+  text-decoration: none; /* Remove text decoration */
+  border-bottom: 2px solid transparent; /* Initial state */
+  padding: 5px 10px; /* Add some padding */
+}
+.page-link:hover,
+.page-link:focus,
+.page-link.selected {
+  border-bottom: 2px solid #343434; /* Underline on hover/focus/selected */
+  color: transparent; /* Hide text color */
+}
+
+@media (max-width: 768px) {
+  nav {
+    background-color: rgb(240, 204, 24);
+    border-radius: 0; 
+    height: 100px;
+    width: 100%; 
+   align-items: center;
+}
+
+  .content h1 {
+    font-size: 18px;
+  }
+ 
+  nav ul {
+    flex-direction: row; /* Stack links vertically on small screens */
+    align-items: center; /* Center links */
+  }
+  .cd-slider-nav .image-icon {
+      border-radius: 0; 
+      width: 30px;
+      height: 30px;
+      background-color: transparent;
+  }
+  .cd-slider-nav h6 {
+    display: none; /* Hide titles */
+} 
+li.selected :hover{
+  background-color: transparent;
+}
+
+}

@@ -1,0 +1,71 @@
+<div class="overlay"></div>
+ <div class="video-container">
+  <video autoplay muted loop class="background-video">
+    <source src="videos/video.mp4" type="video/mp4">
+    Your browser
+  </video>
+
+  <div class="content">
+    <div class="cd-slider-nav">
+    <nav>
+      <span class="cd-marker item-1"></span>
+        <ul>
+                <li class="selected">
+                  <a routerLink="/"><div class="image-icon">
+                    <img src="img/home-icon.png" alt="home">
+                  </div>
+                  <h6>Welcome</h6>
+                </a>
+              </li>
+
+                <li class="selected">
+                  <a routerLink="/about">
+                  <div class="image-icon">
+                    <img src="img/about-icon.png" alt="about">
+                  </div>
+                  <h6>About Us</h6>
+                </a>
+              </li>
+                <li class="selected">
+                  <a routerLink="/featured">
+                  <div class="image-icon">
+                    <img src="img/featured-icon.png" alt="featured">
+                  </div>
+                  <h6>Featured</h6>
+                  </a>
+                </li>
+
+                <li class="selected">
+                  <a routerLink="/project">
+                  <div class="image-icon">
+                    <img src="img/projects-icon.png" alt="project">
+                  </div>
+                  <h6>Projects</h6>
+                </a>
+              </li>
+
+                <li class="selected">
+                  <a routerLink="/contact">
+                  <div class="image-icon">
+                  <img src="img/contact-icon.png" alt="contact">
+                </div>
+                <h6>Contact Us</h6>
+              </a>
+            </li>
+              </ul>
+        
+    </nav>
+  </div>
+</div>
+ </div>
+          <!--<div style="margin-top: -100px; z-index: 9000000;">-->
+            <div>
+            <router-outlet></router-outlet>
+          </div>
+           
+         
+        <footer>
+          <p>Copyright &copy; 2020 Your Company 
+                                
+        	| Designed by <em>Template Mo</em></p>
+        </footer>

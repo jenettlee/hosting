@@ -1,0 +1,90 @@
+.heading {
+  position: absolute;
+   top: 40%;
+  left: 50%; /* Center horizontally */
+  transform: translate(-50%, -50%); /* Adjust for perfect centering */
+  text-align: center; /* Center text */
+  color: white;
+  z-index: 1;
+}
+  .fivth-slide {
+    text-align: center;
+    background-color: #fff;
+    width: 100%;
+  }
+  .content {
+    margin-bottom: 100px;
+    margin-top: -80px;
+    background-color: #fff;
+    border-top: 15px solid #ffbb05;
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.2);
+  }
+  .fivth-content {
+    padding: 30px;
+    text-align: left;
+  }
+  .fivth-content .left-info .social-icons {
+    margin-top: 60px;
+  }
+  .fa-facebook-f:before,
+.fa-facebook:before {
+  content: "\f09a";
+}
+.fa.pull-left {
+    margin-right: .3em;
+  }
+  .fa.pull-right {
+    margin-left: .3em;
+  }
+  .fa-twitter:before {
+    content: "\f099";
+  }.fa-linkedin:before {
+    content: "\f0e1";
+  }
+  .fa-rss:before {
+    content: "\f09e";
+  }.fa-behance:before {
+    content: "\f1b4";
+  }
+  .fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  .primary-button {
+    display: inline-block;
+    background-color: #ffbb05;
+    color: #343434;
+    font-size: 13px;
+    padding: 12px 18px;
+    border-radius: 3px;
+    text-decoration: none;
+    border: 1px solid transparent;
+  }
+  .primary-button.btt a:hover {
+    background-color: transparent;
+    border: 1px solid #ffbb05;
+    -webkit-transition: all 0.2s linear; /* Added standard transition */
+    -moz-transition: all 0.2s linear;
+    -o-transition: all 0.2s linear;
+    transition: all 0.2s linear;
+}
+.btt{
+  display: inline-block;
+    background-color: #ffbb05;
+    color: #343434;
+    font-size: 13px;
+    padding: 12px 18px;
+    border-radius: 3px;
+    text-decoration: none;
+    border: 1px solid transparent;
+}
+.margin-top{margin-top: 5px;}
+.cd-half-width{
+  position: relative;
+ z-index: 1;
+
+}
