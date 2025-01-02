@@ -7,6 +7,11 @@
    transform: translate(-50%, -50%);
    color: white;
   }
+  .span{color: #ffbb05;}
+  h1{
+    font-family: "Acme", serif;
+    font-weight: bold;
+  }
   .cd-half-width{
     position: relative;
    z-index: 1;

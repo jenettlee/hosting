@@ -7,6 +7,13 @@
   color: white;
   z-index: 1;
 }
+a{text-decoration: none;}
+a:active{color: yellow;}
+h1{
+  font-family: "Acme", serif;
+  font-weight: bold;
+}
+.span{color: #ffbb05;}
   .fivth-slide {
     text-align: center;
     background-color: #fff;
@@ -46,14 +53,7 @@
   }.fa-behance:before {
     content: "\f1b4";
   }
-  .fa {
-    display: inline-block;
-    font: normal normal normal 14px/1 FontAwesome;
-    font-size: inherit;
-    text-rendering: auto;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-  }
+
   .primary-button {
     display: inline-block;
     background-color: #ffbb05;
@@ -81,6 +81,7 @@
     border-radius: 3px;
     text-decoration: none;
     border: 1px solid transparent;
+    margin-top: 10px;
 }
 .margin-top{margin-top: 5px;}
 .cd-half-width{

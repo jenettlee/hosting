@@ -5,7 +5,7 @@
   width: 100%;
   height: 80%;
   z-index: 1;
-  background-color: rgba(0, 0, 0, 0.397); /*dim the background*/
+  background-color: rgba(0, 0, 0, 0.71); /*dim the background*/
 }
 .top-part img {
   width: 100%;
@@ -31,13 +31,11 @@ nav ul li  {
   margin: 0 15px;
 }
 nav ul li a {
-  color: white; /* Link color */
-  text-decoration: none; /* Remove underline */
-  font-weight: bold; /* Make links stand out */
+  color: white; 
+  text-decoration: none; 
+  font-weight: bold;
 }
-nav ul li a:hover {
-  background-color: red;
- }
+
 .cd-hero {
   z-index: 2; 
   height: 100vh; 
@@ -68,7 +66,8 @@ nav ul li a:hover {
   padding: 0px;
   background-color: #ffbb05;
 }
-  li.selected a :hover{
+
+  li.selected :hover{
   background-color: rgb(247, 241, 241);}
 video {
   display: inline-block;
@@ -130,10 +129,14 @@ padding-top: 15px;}
 
 @media (max-width: 768px) {
   nav {
-    background-color: rgb(240, 204, 24);
+    background-color: rgb(240, 182, 24);
     border-radius: 0; 
     height: 100px;
     width: 100%; 
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
    align-items: center;
 }
 
@@ -143,19 +146,24 @@ padding-top: 15px;}
  
   nav ul {
     flex-direction: row; /* Stack links vertically on small screens */
-    align-items: center; /* Center links */
+    align-items: center;
+     /* Center links */
   }
   .cd-slider-nav .image-icon {
       border-radius: 0; 
       width: 30px;
       height: 30px;
+      line-height: 5cap;
       background-color: transparent;
   }
   .cd-slider-nav h6 {
     display: none; /* Hide titles */
 } 
+
 li.selected :hover{
   background-color: transparent;
 }
-
+.pic{
+  width: 30px;
+}
 }
